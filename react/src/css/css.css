@@ -1,0 +1,31 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pet-content {
+  display: flex;
+}
+.pet-content div {
+  margin-right: 10px;
+  color: var(--pet-color);
+}
+
+@keyframes grow {
+  from {
+    font-size: 1rem;
+  }
+  to {
+    font-size: 2rem;
+  }
+}
+
+.disclaimer {
+  padding-top: 40rem;
+  text-align: center;
+  animation-direction: alternate;
+  animation-duration: 5s;
+  animation-name: grow;
+  animation-iteration-count: infinite;
+}

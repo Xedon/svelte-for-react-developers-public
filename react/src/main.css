@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.nav-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

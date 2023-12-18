@@ -1,0 +1,13 @@
+.meme-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.meme-header {
+  font-weight: 800;
+}
+.meme-content {
+  padding-top: 1rem;
+}
